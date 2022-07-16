@@ -18,7 +18,7 @@
     <link rel="canonical" href="https://drmalvikachawla.com/">
     <title>Dr. Malvika Chawla - Writer, Editor as well as Proofreader</title>
     
-  <link rel="stylesheet" href="/assets/index.9c6ba17f.css">
+  <link rel="stylesheet" href="/assets/index.0dade036.css">
 </head>
 <body>
     <!--  -->
@@ -130,7 +130,7 @@
 
     <!--  -->
     <section id="skillset" class="px-14 md:px-16 xl:px-40 py-8 md:py-16 lg:py-20 xl:py-10">
-        <h3 class="text-center font-semibold text-4xl mb-3">My SkillSet</h3>
+        <h3 style="text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;" class="text-center font-semibold text-4xl mb-3">My SkillSet</h3>
         <div class='flex flex-wrap flex-col md:flex-row md:justify-around lg:justify-between lg:flex-row'>
             <div class='flex flex-col mx-auto w-[75%] sm:w-[60%] md:w-[40%] lg:w-[30%] my-10'>
                 <div class='text-center skillHover'>
@@ -185,7 +185,7 @@
 
     <!--  -->
     <section id="research-papers" class="px-10 md:px-16 xl:px-40 py-8 md:py-16 lg:py-20 xl:py-10">
-        <h3 class="text-center font-semibold text-4xl mb-5">Research Papers</h3>
+        <h3 style="text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;" class="text-center font-semibold text-4xl mb-5">Research Papers</h3>
         <div class='flex flex-wrap flex-col md:flex-row md:justify-around lg:justify-between lg:flex-row'>
             <div class='flex flex-col mx-auto w-[75%] sm:w-[60%] md:w-[40%] lg:w-[30%] my-6'>
                 <div class='shadow-md text-center'>
@@ -208,42 +208,49 @@
                     </a>
                 </div>
             </div>
-            <div class='flex flex-col mx-auto w-[75%] sm:w-[60%] md:w-[40%] lg:w-[30%] my-6'>
+            <div>
+              <button id="seeMoreResearchPapersButton" onclick="seeMoreResearchPaper()" style="background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);" class="text-white py-3 px-8 hover:shadow-md text-sm block md:hidden mx-auto">See More</button>
+            </div>
+
+            <div id="researchPaperSpinner" style="color: #72abfe; display: none !important;" class="spinner-border mx-auto" role="status">
+            </div>
+
+            <div class='more-research-papers md:flex flex-col hidden mx-auto w-[75%] sm:w-[60%] md:w-[40%] lg:w-[30%] my-6'>
                 <div class='shadow-md text-center'>
                     <a href="/static/research-papers-pdf/DENDRITIC POLYMERS- AN INNOVATIVE STEP TOWARDS GREEN FUTURE.pdf" target="_blank">
                         <img class="research-paper" src="/assets/Research Paper 4.aa3286d5.webp" alt="Dr. Malvika Chawla Research Paper 4">
                     </a>
                 </div>
             </div>
-            <div class='flex flex-col mx-auto w-[75%] sm:w-[60%] md:w-[40%] lg:w-[30%] my-6'>
+            <div class='more-research-papers md:flex flex-col hidden mx-auto w-[75%] sm:w-[60%] md:w-[40%] lg:w-[30%] my-6'>
                 <div class='shadow-md text-center'>
                     <a href="/static/research-papers-pdf/EVALUATION OF KINETIC PARAMETERS FOR MnII CATALYZED PERIODATE OXIDATION OF m-TOLUIDINE- A MECHANISTIC STUDY .pdf" target="_blank">
                         <img class="research-paper" src="/assets/Research Paper 5.b5098f56.webp" alt="Dr. Malvika Chawla Research Paper 5">
                     </a>
                 </div>
             </div>
-            <div class='flex flex-col mx-auto w-[75%] sm:w-[60%] md:w-[40%] lg:w-[30%] my-6'>
+            <div class='more-research-papers md:flex flex-col hidden mx-auto w-[75%] sm:w-[60%] md:w-[40%] lg:w-[30%] my-6'>
                 <div class='shadow-md text-center'>
                     <a href="/static/research-papers-pdf/Preparation and characterization of Acrylic Emulsion paints formulated from nano-emulsion of Methyl-Metacrylate: Butyl Acrylate .pdf" target="_blank">
                         <img class="research-paper" src="/assets/Research Paper 6.82e54a07.webp" alt="Dr. Malvika Chawla Research Paper 6">
                     </a>
                 </div>
             </div>
-            <div class='flex flex-col mx-auto w-[75%] sm:w-[60%] md:w-[40%] lg:w-[30%] my-6'>
+            <div class='more-research-papers md:flex flex-col hidden mx-auto w-[75%] sm:w-[60%] md:w-[40%] lg:w-[30%] my-6'>
                 <div class='shadow-md text-center'>
                     <a href="/static/research-papers-pdf/Nano-emulsion of methylmetacrylate : butyl acrylate crosslinked an application in acrylic emulsion paints .pdf" target="_blank">
                         <img class="research-paper" src="/assets/Research Paper 7.65ee7090.webp" alt="Dr. Malvika Chawla Research Paper 7">
                     </a>
                 </div>
             </div>
-            <div class='flex flex-col mx-auto w-[75%] sm:w-[60%] md:w-[40%] lg:w-[30%] my-6'>
+            <div class='more-research-papers md:flex flex-col hidden mx-auto w-[75%] sm:w-[60%] md:w-[40%] lg:w-[30%] my-6'>
                 <div class='shadow-md text-center'>
                     <a href="/static/research-papers-pdf/Research Journal of Pharmaceutical, Biological and Chemical Sciences 1.pdf" target="_blank">
                         <img class="research-paper" src="/assets/Research Paper 8.c6d2a9cc.webp" alt="Dr. Malvika Chawla Research Paper 8">
                     </a>
                 </div>
             </div>
-            <div class='flex flex-col mx-auto w-[75%] sm:w-[60%] md:w-[40%] lg:w-[30%] my-6'>
+            <div class='more-research-papers md:flex flex-col hidden mx-auto w-[75%] sm:w-[60%] md:w-[40%] lg:w-[30%] my-6'>
                 <div class='shadow-md text-center'>
                     <a href="/static/research-papers-pdf/Research Journal of Pharmaceutical, Biological and Chemical Sciences 2.pdf" target="_blank">
                         <img class="research-paper" src="/assets/Research Paper 9.f28e7ce1.webp" alt="Dr. Malvika Chawla Research Paper 9">
@@ -255,7 +262,7 @@
 
     <!--  -->
     <section id="books" class="px-14 md:px-16 xl:px-40 py-8 md:py-16 lg:py-20 xl:py-10">
-        <h3 class="text-center font-semibold text-4xl mb-12">Books</h3>
+        <h3 style="text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;" class="text-center font-semibold text-4xl mb-12">Books</h3>
         <!-- For Large Screens -->
         <div class="flex sm:hidden lg:flex lg:flex-row flex-col items-center justify-center lg:space-x-12 xl:space-x-18 space-y-8 sm:space-y-0">
             <div>
@@ -302,7 +309,7 @@
 
     <!--  -->
     <section id="projects" class="px-24 md:px-28 xl:px-40 py-24 md:py-16 lg:py-20 xl:py-16">
-        <h3 class="text-center font-semibold text-4xl mb-12">Projects</h3>
+        <h3 style="text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;" class="text-center font-semibold text-4xl mb-12">Projects</h3>
         <div class="flex flex-wrap -m-4">
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
             <div class="block relative h-48 rounded overflow-hidden shadow-md">
@@ -328,7 +335,13 @@
               <h3 class="text-gray-900 text-center title-font text-lg font-medium">Technical Documentation of a Pharma Formulation</h3>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="mx-auto">
+            <button id="seeMoreProjectsButton" onclick="seeMoreProjects()" style="background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);" class="text-white py-3 px-8 hover:shadow-md text-sm block md:hidden mx-auto">See More</button>
+          </div>
+
+          <div id="projectsSpinner" style="color: #72abfe; display: none !important;" class="spinner-border mx-auto" role="status">
+          </div>
+          <div class="more-projects hidden md:block lg:w-1/4 md:w-1/2 p-4 w-full">
             <div class="block relative h-48 rounded overflow-hidden shadow-md">
               <img alt="Systematic Analysis Review Editing (Pharmaceutical Sciences)" class="object-cover object-center w-full h-full block" src="/assets/Systematic Analysis Review Editing (Pharmaceutical Sciences).a5aa1431.webp">
             </div>
@@ -336,7 +349,7 @@
               <h3 class="text-gray-900 text-center title-font text-lg font-medium">Systematic Analysis Review Editing (Pharmaceutical Sciences)</h3>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="more-projects hidden md:block lg:w-1/4 md:w-1/2 p-4 w-full">
             <div class="block relative h-48 rounded overflow-hidden shadow-md">
               <img alt="Technical Review of a Pharma Formulation" class="object-cover object-center w-full h-full block" src="/assets/Technical Review of a Pharma Formulation.3bc2ca15.webp">
             </div>
@@ -344,7 +357,7 @@
               <h3 class="text-gray-900 text-center title-font text-lg font-medium">Technical Review of a Pharma Formulation</h3>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="more-projects hidden md:block lg:w-1/4 md:w-1/2 p-4 w-full">
             <div class="block relative h-48 rounded overflow-hidden shadow-md">
               <img alt="Scientific Paper Editing Based on Clinical Studies" class="object-cover object-center w-full h-full block" src="/assets/Scientific Paper Editing Based on Clinical Studies.804be8e4.webp">
             </div>
@@ -352,7 +365,7 @@
               <h3 class="text-gray-900 text-center title-font text-lg font-medium">Scientific Paper Editing Based on Clinical Studies</h3>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="more-projects hidden md:block lg:w-1/4 md:w-1/2 p-4 w-full">
             <div class="block relative h-48 rounded overflow-hidden shadow-md">
               <img alt="Scientific Paper Editing (Dentistry)" class="object-cover object-center w-full h-full block" src="/assets/Scientific Paper Editing (Dentistry).0528f370.webp">
             </div>
@@ -360,7 +373,7 @@
               <h3 class="text-gray-900 text-center title-font text-lg font-medium">Scientific Paper Editing (Dentistry)</h3>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="more-projects hidden md:block lg:w-1/4 md:w-1/2 p-4 w-full">
             <div class="block relative h-48 rounded overflow-hidden shadow-md">
               <img alt="Scientific Paper Editing (Life Sciences)" class="object-cover object-center w-full h-full block" src="/assets/Scientific Paper Editing (Life Sciences).41e8be22.webp">
             </div>
@@ -373,7 +386,7 @@
 
      <!--  -->
      <section style="background-color: #f9f9ff;" id="testimonials" class="px-12 md:px-16 xl:px-40 py-24 md:py-16 lg:py-20 xl:py-10">
-        <h3 class="text-center font-semibold text-4xl mb-16">Client’s Feedback About Me</h3>
+        <h3 style="text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;" class="text-center font-semibold text-4xl mb-16">Client’s Feedback About Me</h3>
         <!-- For Medium Devices -->
         <div id="carouselOurClassControlsMdDevices" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -536,6 +549,40 @@
         function backToTop(){
             document.body.scrollTop=0
             document.documentElement.scrollTop = 0;
+        }
+
+        // 
+        function seeMoreResearchPaper() {
+          document.getElementById('seeMoreResearchPapersButton').classList.remove('block')
+          document.getElementById('seeMoreResearchPapersButton').classList.add('hidden')
+
+          document.getElementById('researchPaperSpinner').style.display='block'
+
+          setTimeout(() => {
+            document.getElementById('researchPaperSpinner').style.display='none'
+
+            let elem=document.getElementsByClassName('more-research-papers')
+            for (let index = 0; index < elem.length; index++) {
+              elem[index].classList.remove('hidden')
+            }
+          }, 500);
+        }
+
+        // 
+        function seeMoreProjects() {
+          document.getElementById('seeMoreProjectsButton').classList.remove('block')
+          document.getElementById('seeMoreProjectsButton').classList.add('hidden')
+
+          document.getElementById('projectsSpinner').style.display='block'
+
+          setTimeout(() => {
+            document.getElementById('projectsSpinner').style.display='none'
+
+            let elem=document.getElementsByClassName('more-projects')
+            for (let index = 0; index < elem.length; index++) {
+              elem[index].classList.remove('hidden')
+            }
+          }, 500);
         }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
